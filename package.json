@@ -1,6 +1,6 @@
 {
   "name": "create-rn-lib",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "CLI to scaffold React / React Native library modules with a consistent file structure",
   "main": "dist/index.js",
   "repository": {
