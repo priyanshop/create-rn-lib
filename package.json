@@ -1,0 +1,30 @@
+{
+  "name": "create-rn-lib",
+  "version": "1.0.0",
+  "description": "CLI to scaffold React / React Native library modules with a consistent file structure",
+  "main": "dist/index.js",
+  "bin": {
+    "create-rn-lib": "dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "dev": "ts-node src/index.ts"
+  },
+  "keywords": [
+    "react",
+    "react-native",
+    "cli",
+    "scaffold",
+    "library"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "commander": "^11.1.0",
+    "ora": "^5.4.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.3.0"
+  }
+}
