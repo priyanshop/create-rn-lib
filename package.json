@@ -3,6 +3,11 @@
   "version": "1.0.0",
   "description": "CLI to scaffold React / React Native library modules with a consistent file structure",
   "main": "dist/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/priyanshop/create-rn-lib.git"
+  },
+  "homepage": "https://github.com/priyanshop/create-rn-lib#readme",
   "bin": {
     "create-rn-lib": "dist/index.js"
   },
